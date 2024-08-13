@@ -1,0 +1,84 @@
+<prxusersettings>
+    <zlayout>
+        <perspective type="iss">
+            <HorPaneNode>
+                <VerPaneNode size="3">
+                    <ViewBookNode size="363">
+                        <window name="ProjectView" visible="0" select="0"/>
+                        <window name="MicView" visible="1" select="1"/>
+                        <window name="OutlineView" visible="0" select="0"/>
+                        <window name="CallHierarchyView" visible="0" select="0"/>
+                    </ViewBookNode>
+                    <ViewBookNode size="593">
+                        <window name="StatsView" visible="1" select="1"/>
+                        <window name="RegisterView" visible="1" select="0"/>
+                        <window name="StorageView" visible="0" select="0"/>
+                        <window name="PipelineView" visible="0" select="0"/>
+                        <window name="DynamicConfiguration" visible="1" select="0"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+                <VerPaneNode size="4">
+                    <ViewBookNode size="136">
+                        <window name="IssTimeline" visible="0" select="0"/>
+                    </ViewBookNode>
+                    <EditorBookNode size="289">
+                        <window name="editor1" visible="1" select="0"/>
+                        <window name="editor2" visible="1" select="1"/>
+                    </EditorBookNode>
+                    <ViewBookNode size="260">
+                        <window name="HostedIOView" visible="1" select="1"/>
+                        <window name="FileIOView" visible="0" select="0"/>
+                        <window name="VarInfoView" visible="0" select="0"/>
+                        <window name="LocalVarView" visible="1" select="0"/>
+                        <window name="BreakWatchView" visible="0" select="0"/>
+                        <window name="ProfilingView" visible="0" select="0"/>
+                        <window name="IssReverseDebuggingView" visible="0" select="0"/>
+                    </ViewBookNode>
+                    <ViewBookNode size="403">
+                        <window name="ConsoleView" visible="1" select="1"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+            </HorPaneNode>
+        </perspective>
+        <perspective type="dev">
+            <HorPaneNode>
+                <VerPaneNode size="1">
+                    <ViewBookNode size="3">
+                        <window name="ProjectView" visible="1" select="1"/>
+                        <window name="SrcRefView" visible="0" select="0"/>
+                    </ViewBookNode>
+                    <ViewBookNode size="2">
+                        <window name="OutlineView" visible="0" select="0"/>
+                        <window name="CallHierarchyView" visible="0" select="0"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+                <VerPaneNode size="2">
+                    <EditorBookNode size="2">
+                        <window name="editor1" visible="1" select="1"/>
+                        <window name="editor2" visible="1" select="0"/>
+                    </EditorBookNode>
+                    <ViewBookNode size="1">
+                        <window name="ConsoleView" visible="1" select="1"/>
+                    </ViewBookNode>
+                </VerPaneNode>
+            </HorPaneNode>
+        </perspective>
+        <editor id="editor1" file="/usr/cad/synopsys/asip/V-2023.12/linux64/examples/trv/trv32p3/lib/trv32p3_init.s" top="15.0" cursor="22.0" foldmap="1" linemap="0"/>
+        <editor id="editor2" file="/usr/cad/synopsys/asip/V-2023.12/linux64/examples/trv/trv32p3/lib/libgloss/rt_support.c" top="171.0" cursor="171.0" foldmap="1" linemap="0"/>
+    </zlayout>
+    <issui>iss iss_toplevel color_storages 0
+iss varinfo::locals last_sort {1 -increasing}
+iss profiling hazards_logging Off
+iss registers isvisible {X.hex Registers X.dec} notvisible {}
+iss storages isvisible {} notvisible {}
+iss varinfo::statics last_sort {1 -increasing}
+iss memory::DMw start_field 0 vector 0
+iss memory::DMh start_field 0 vector 0
+iss memory::DMb start_field 0 vector 0
+iss memory::PM start_field 0 vector 0
+iss memory::PMb start_field 0 vector 0
+iss profiling value(stepped) 1 value(report_type) textual value(lcovgenhtml_opts) {--show-details --legend --sort --demangle-cpp --rc lcov_branch_coverage=1} value(lcovgenhtml_dir) asiplcov_html
+iss waveform vars {{time {} {}}} signal_info {time {alias time color green num_format %x} {time {} {}} {alias time color green num_format %x}} samples 16 namesf_width 100 valuesf_width 100</issui>
+    <active cfg="Release_LLVM_full" dbg="Dynamic"/>
+    <selectsim type="ISSCA" exe="&lt;PROCDIR&gt;/../iss/trv32p3_ca-fst"/>
+</prxusersettings>
