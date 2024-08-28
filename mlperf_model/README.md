@@ -1,8 +1,3 @@
----
-title: Run INT8 TFlite Model on ASIP
-
----
-
 # Run INT8 TFlite Model on ASIP
 
 ## Edit arena.cc file
