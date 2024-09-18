@@ -1,11 +1,5 @@
 # Run INT8 TFlite Model on ASIP
 
-## Edit arena.cc file
-The original code in arena.cc is aligned(32), you need to change it to 8 as shown below to run int8 model.
-```cpp
-uint8_t tensor_arena[kTensorArenaSize] __attribute__((aligned(8)));
-```
-
 ## Generate model_data.cc file
 Take vww_96_int8.tflite for example.
 ```bash
